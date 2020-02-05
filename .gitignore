@@ -6,7 +6,6 @@ target/
 mvnw*
 src/test
 .mvn
-src
 
 ### STS ###
 .apt_generated
