@@ -41,9 +41,6 @@ public class MarsTemperatureController {
                     status = HttpStatus.BAD_REQUEST;
                     throw new BusinessException(configProperties.getERROR_INVALID_PARAMETER());
                 }
-            } else {
-                status = HttpStatus.BAD_REQUEST;
-                throw new BusinessException(configProperties.getERROR_INVALID_PARAMETER());
             }
 
             lista = marsTemperatureService.getTemperature(sol);
