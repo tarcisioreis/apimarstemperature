@@ -35,7 +35,7 @@ public class MarsTemperatureServiceTest {
 
     @Test
     public void successSearchSOL() throws IOException {
-        List<DataDTO> lista = service.getTemperature(416);
+        List<DataDTO> lista = service.getTemperature(418);
 
         assertNotNull(lista);
         assertEquals(1, lista.size());
